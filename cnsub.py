@@ -27,7 +27,7 @@ if response.status_code == 200:
         #row_loan = table('tr')[3]
         #loan_percent = row_loan('td')[2].text
         #total_loan = row_loan('td')[3].text
-        print total_loan
+        print "total_loan"
         
     except (IndexError,TypeError,AttributeError):
         
